@@ -40,8 +40,11 @@ int main(){
     if(str == "yes"){
         goto again;
     }
-    else{
+    else if(str == "no"){
         cout<<"Ok! End Game"<<endl;
+    }
+    else{
+        cout<<"Invalid Choice"<<endl;
     }
     return 0;
 }
