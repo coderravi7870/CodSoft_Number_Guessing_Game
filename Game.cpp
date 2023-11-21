@@ -6,7 +6,6 @@ int main(){
     again:
     srand(time(NULL));
     int random_number = rand() % 100 + 1;
-    cout<<random_number<<endl;
     cout<<"You have only Five chance to win the Game"<<endl;
     int n;
     int c=1;
